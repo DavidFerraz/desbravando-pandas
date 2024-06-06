@@ -74,12 +74,14 @@ series_idades
 series_idades
 
 # %%
+# iloc busca a posição
 series_idades.iloc[2:4]
 
 # %%
 series_idades.iloc[0:2]
 
 # %%
+# loc busca o indice
 series_idades.loc[40]
 
 # %%
