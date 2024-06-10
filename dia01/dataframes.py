@@ -1,5 +1,6 @@
 # %%
 import pandas as pd
+
 # %%
 
 data = {
@@ -8,13 +9,13 @@ data = {
     "idade": [31, 32, 31, 2]
 }
 
-#%%
+# %%
 data["idade"][0]
 
 # %%
 df = pd.DataFrame(data)
 df
-#%%
+# %%
 df["idade"].iloc[0]
 
 # %%
@@ -40,6 +41,8 @@ df.index
 df.columns
 
 # %%
+# Utilizar o memory_usage='deep' apenas quando desejar saber o valor especifico da memoria utilizada,
+# isso pode afetar o tempo de execução.
 df.info(memory_usage='deep')
 
 # %%
@@ -50,8 +53,9 @@ df.dtypes
 df['peso'] = [80, 53, 65, 14]
 
 sumario = df.describe()
+sumario
 
-sumario['peso']['mean']
+# sumario['peso']['mean']
 
 # %%
 df.head(2)
