@@ -53,9 +53,8 @@ df.dtypes
 df['peso'] = [80, 53, 65, 14]
 
 sumario = df.describe()
-sumario
 
-# sumario['peso']['mean']
+sumario['peso']['mean']
 
 # %%
 df.head(2)

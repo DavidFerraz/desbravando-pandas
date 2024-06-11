@@ -17,10 +17,10 @@ sumario = dados_df.describe()
 sumario
 
 # %%
-dados_df["nome"]
+dados_df["nome"].describe()
 
 # %%
-dados_df["idade"]
+dados_df["idade"].describe()
 
 # %%
 # Primeira forma de achar a média
