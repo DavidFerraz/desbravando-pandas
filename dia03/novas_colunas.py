@@ -120,4 +120,3 @@ df_crm
 # %%
 
 df_crm.iloc[0]
-
